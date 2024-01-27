@@ -7,7 +7,7 @@
 
 その３　DLした `kb.hpp` を3gxソースルートの `Includes` ファルダに入れる。
 
-その４　3gxソースルートの `Sources/cheats.hpp` に `#include "kb.hpp"` を記述する。
+その４　3gxソースルートの `Includes/cheats.hpp` に `#include "kb.hpp"` を記述する。
 
 以上で導入は完了です。
 
