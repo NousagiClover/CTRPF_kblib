@@ -17,5 +17,5 @@ namespace CTRPluginFramework
   int kbOpen(std::string msg, float &out);
   int kbOpen(std::string msg, double &out);
   int kbOpen(std::string msg, std::string &out);
-  int kbOpen(std::string msg, StringVector options, int &out);
+  int kbOpen(std::string msg, int &out, StringVector options);
 }

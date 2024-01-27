@@ -83,7 +83,7 @@ namespace CTRPluginFramework
     return res;
   }
 
-  int kbOpen(std::string msg, StringVector options, int &out)
+  int kbOpen(std::string msg, int &out, StringVector options)
   {
     Keyboard kb(msg, options);
     int res = kb.Open();
